@@ -19,9 +19,9 @@ jobs:
         run: echo "Hello world"
         shell: bash
 
-  goodbye:
+  welcome:
     runs-on: ubuntu-latest
     steps:
-      - name: Print goodbye world
-        run: echo "Goodbye world"
+      - name: Print welcome to nvpt
+        run: echo "Welcome to NVPT"
         shell: bash
